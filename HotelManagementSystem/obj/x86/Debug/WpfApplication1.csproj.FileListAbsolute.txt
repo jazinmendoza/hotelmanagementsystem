@@ -1,0 +1,17 @@
+C:\Users\student\AppData\Local\Temporary Projects\WpfApplication1\bin\Debug\WpfApplication1.exe
+C:\Users\student\AppData\Local\Temporary Projects\WpfApplication1\bin\Debug\WpfApplication1.pdb
+C:\Users\student\AppData\Local\Temporary Projects\WpfApplication1\obj\x86\Debug\MainWindow.baml
+C:\Users\student\AppData\Local\Temporary Projects\WpfApplication1\obj\x86\Debug\View\Login.baml
+C:\Users\student\AppData\Local\Temporary Projects\WpfApplication1\obj\x86\Debug\View\MainWindow.baml
+C:\Users\student\AppData\Local\Temporary Projects\WpfApplication1\obj\x86\Debug\MainWindow.g.cs
+C:\Users\student\AppData\Local\Temporary Projects\WpfApplication1\obj\x86\Debug\View\Login.g.cs
+C:\Users\student\AppData\Local\Temporary Projects\WpfApplication1\obj\x86\Debug\View\MainWindow.g.cs
+C:\Users\student\AppData\Local\Temporary Projects\WpfApplication1\obj\x86\Debug\App.g.cs
+C:\Users\student\AppData\Local\Temporary Projects\WpfApplication1\obj\x86\Debug\WpfApplication1_MarkupCompile.cache
+C:\Users\student\AppData\Local\Temporary Projects\WpfApplication1\obj\x86\Debug\WpfApplication1.g.resources
+C:\Users\student\AppData\Local\Temporary Projects\WpfApplication1\obj\x86\Debug\WpfApplication1.Properties.Resources.resources
+C:\Users\student\AppData\Local\Temporary Projects\WpfApplication1\obj\x86\Debug\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\student\AppData\Local\Temporary Projects\WpfApplication1\obj\x86\Debug\WpfApplication1.exe
+C:\Users\student\AppData\Local\Temporary Projects\WpfApplication1\obj\x86\Debug\WpfApplication1.pdb
+C:\Users\student\documents\visual studio 2010\Projects\WpfApplication1\WpfApplication1\obj\x86\Debug\WpfApplication1.exe
+C:\Users\student\documents\visual studio 2010\Projects\WpfApplication1\WpfApplication1\obj\x86\Debug\WpfApplication1.pdb
