@@ -1,0 +1,12 @@
+﻿<Window x:Class="HotelManagementSystem.View.ReservationForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ReservationForm" Height="376.325" Width="454.77">
+    <Grid>
+        <Label Content="Reservation Form" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="Lastname" HorizontalAlignment="Left" Margin="59,86,0,0" VerticalAlignment="Top"/>
+        <Label Content="Firstname" HorizontalAlignment="Left" Margin="59,112,0,0" VerticalAlignment="Top"/>
+        <Label Content="Room Number" HorizontalAlignment="Left" Margin="59,138,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
