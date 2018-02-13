@@ -1,7 +1,7 @@
-﻿<Application x:Class="WpfApplication1.App"
+﻿<Application x:Class="HotelManagementSystem.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             StartupUri="View/Login.xaml">
+             StartupUri="View/loginWindow.xaml">
     <Application.Resources>
          
     </Application.Resources>
