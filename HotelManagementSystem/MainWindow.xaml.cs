@@ -10,25 +10,19 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace HotelManagementSystem.View
+namespace HotelManagementSystem
 {
     /// <summary>
-    /// Interaction logic for LogIn.xaml
+    /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class LogIn : Window
+    public partial class MainWindow : Window
     {
-        public LogIn()
+        public MainWindow()
         {
             InitializeComponent();
-        }
-
-        private void logInBtn_Clicked(object sender, RoutedEventArgs e)
-        {
-            this.Visibility = System.Windows.Visibility.Collapsed;
-            Dashboard a = new Dashboard();
-            a.Visibility = System.Windows.Visibility.Visible;
         }
     }
 }

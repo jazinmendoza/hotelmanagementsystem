@@ -7,12 +7,12 @@ using System.Windows;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WpfApplication1")]
+[assembly: AssemblyTitle("HotelManagementSystem")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("rg-adguard")]
-[assembly: AssemblyProduct("WpfApplication1")]
-[assembly: AssemblyCopyright("Copyright © rg-adguard 2018")]
+[assembly: AssemblyCompany("Toshiba")]
+[assembly: AssemblyProduct("HotelManagementSystem")]
+[assembly: AssemblyCopyright("Copyright © Toshiba 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

@@ -15,20 +15,29 @@ using System.Windows.Shapes;
 namespace HotelManagementSystem.View
 {
     /// <summary>
-    /// Interaction logic for LogIn.xaml
+    /// Interaction logic for Dashboard.xaml
     /// </summary>
-    public partial class LogIn : Window
+    public partial class Dashboard : Window
     {
-        public LogIn()
+        public Dashboard()
         {
             InitializeComponent();
         }
 
-        private void logInBtn_Clicked(object sender, RoutedEventArgs e)
+        private void roomMonitoringBtn_Clicked(object sender, RoutedEventArgs e)
         {
             this.Visibility = System.Windows.Visibility.Collapsed;
-            Dashboard a = new Dashboard();
+            RoomMonitoring a = new RoomMonitoring();
             a.Visibility = System.Windows.Visibility.Visible;
         }
+
+        private void reservationBtn_Clicked(object sender, RoutedEventArgs e)
+        {
+            this.Visibility = System.Windows.Visibility.Collapsed;
+            ReservationForm a = new ReservationForm();
+            a.Visibility = System.Windows.Visibility.Visible;
+        }
+
+
     }
 }
