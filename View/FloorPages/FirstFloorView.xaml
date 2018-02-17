@@ -3,12 +3,11 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-      mc:Ignorable="d" 
-      d:DesignHeight="378" d:DesignWidth="740"
-	Title="First Floor">
+      mc:Ignorable="d"
+	Title="First Floor" Height="401" Width="741.413">
 
     <Grid HorizontalAlignment="Left" Width="740">
-        <Rectangle Fill="#FFF3F3F5" HorizontalAlignment="Left" Height="378" Stroke="Black" VerticalAlignment="Top" Width="740"/>
+        <Rectangle Fill="#FFF3F3F5" HorizontalAlignment="Left" Height="401" Stroke="Black" VerticalAlignment="Top" Width="740"/>
         <Label Content="First Floor" 
                HorizontalAlignment="Left" 
                Margin="10,10,0,0" 
