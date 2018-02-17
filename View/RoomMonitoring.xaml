@@ -1,0 +1,38 @@
+﻿<Window x:Class="HotelManagementSystem.View.RoomMonitoring"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="RoomMonitoring" Height="659.089" Width="1174.933"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Rectangle Fill="#FF5B0C0C" HorizontalAlignment="Left" Height="93" Stroke="Black" VerticalAlignment="Top" Width="1167"/>
+        <Label Content="Room Monitoring" HorizontalAlignment="Left" Margin="70,20,0,0" VerticalAlignment="Top" Foreground="White" FontSize="30"/>
+        <Label Content="H o t e l   M a n a g e m e n t   S y s t em" HorizontalAlignment="Left" Margin="810,28,0,0" VerticalAlignment="Top" Foreground="White" FontSize="19"/>
+        <Label x:Name="backBtn" Content="&lt;" HorizontalAlignment="Left" Margin="14,10,0,0" VerticalAlignment="Top" Foreground="White" FontSize="56" FontFamily="Times New Roman" FontWeight="Bold" MouseDown="backBtn_Clicked"/>
+        <Button x:Name="firstFloorBtn" 
+                Click="firstBtn_Clicked"
+                Content="First Floor" HorizontalAlignment="Left" Margin="30,548,0,0" VerticalAlignment="Top" Width="167" Height="54" FontSize="20" Background="#FF5B0C0C" BorderBrush="#FF5B0C0C" Foreground="White"/>
+        <Button x:Name="secondFloorBtn" 
+                Click="secondBtn_Clicked"
+                Content="Second Floor" HorizontalAlignment="Left" Margin="214,548,0,0" VerticalAlignment="Top" Width="167" Height="54" FontSize="20" BorderBrush="#FF5B0C0C" Background="#FF5B0C0C" Foreground="White"/>
+        <Button x:Name="thirdFloorBtn" 
+                Click="thirdBtn_Clicked"
+                Content="Third Floor" HorizontalAlignment="Left" Margin="401,548,0,0" VerticalAlignment="Top" Width="167" Height="54" Background="#FF5B0C0C" BorderBrush="#FF5B0C0C" FontSize="20" Foreground="White"/>
+        <Button x:Name="fourthFloorBtn" 
+                Click="fourthBtn_Clicked"
+                Content="Fourth Floor" HorizontalAlignment="Left" Margin="587,548,0,0" VerticalAlignment="Top" Width="167" Height="54" Background="#FF5B0C0C" BorderBrush="#FF5B0C0C" Foreground="White" FontSize="20"/>
+        <Frame x:Name="floorPage_Frame" Content="" HorizontalAlignment="Left" Height="400" Margin="14,116,0,0" VerticalAlignment="Top" Width="740" BorderBrush="#FF877C7C"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="400" Margin="777,116,0,0" Stroke="Black" VerticalAlignment="Top" Width="362"/>
+        <Label Content="LEGENDS" 
+               HorizontalAlignment="Left" Margin="777,548,0,0" VerticalAlignment="Top"
+               FontSize="16" Height="32"/>
+        <Rectangle Fill="#FFEC3422" HorizontalAlignment="Left" Height="28" Margin="876,574,0,0" Stroke="Black" VerticalAlignment="Top" Width="32" RenderTransformOrigin="0.5,0.464"/>
+        <Rectangle Fill="#FF228704" HorizontalAlignment="Left" Height="28" Margin="1010,574,0,0" Stroke="Black" VerticalAlignment="Top" Width="32" RenderTransformOrigin="0.5,0.464"/>
+        <Label Content="Occupied" 
+        	HorizontalAlignment="Left" Margin="913,574,0,0" VerticalAlignment="Top"
+        	FontSize="16" Height="32"/>
+        <Label Content="Vacant" 
+        	HorizontalAlignment="Left" Margin="1047,574,0,0" VerticalAlignment="Top"
+        	FontSize="16" Height="32"/>
+
+    </Grid>
+</Window>
