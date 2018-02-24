@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-E:\IT\3rd Year\HotelManagementSystem\HotelManagementSystem\obj\Debug\
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\obj\Debug\
 HotelManagementSystem
 none
 false
 DEBUG;TRACE
-E:\IT\3rd Year\HotelManagementSystem\HotelManagementSystem\App.xaml
-91088230112
-
-13-1132495209
-12-1401562060
-MainWindow.xaml;View\Dashboard.xaml;View\FloorPages\FirstFloorView.xaml;View\FloorPages\FourthFloorView.xaml;View\FloorPages\SecondFloorView.xaml;View\FloorPages\ThirdFloorView.xaml;View\LogIn.xaml;View\ReservationForm.xaml;View\RoomMonitoring.xaml;
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\App.xaml
+15632221334
+6-265868183
+29-23243530
+14-105585256
+MainWindow.xaml;View\Billing.xaml;View\CheckInForm.xaml;View\CheckOut.xaml;View\Dashboard.xaml;View\FloorPages\FirstFloorView.xaml;View\FloorPages\FourthFloorView.xaml;View\FloorPages\SecondFloorView.xaml;View\FloorPages\ThirdFloorView.xaml;View\GuestList.xaml;View\LogIn.xaml;View\ReservationForm.xaml;View\ReservationList.xaml;View\RoomMonitoring.xaml;View\RoomStatus.xaml;
 
 False
 

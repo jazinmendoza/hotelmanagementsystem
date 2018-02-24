@@ -54,3 +54,45 @@ E:\IT\3rd Year\HotelManagementSystem\HotelManagementSystem\obj\Debug\HotelManage
 E:\IT\3rd Year\HotelManagementSystem\HotelManagementSystem\obj\Debug\HotelManagementSystem.csproj.GenerateResource.Cache
 E:\IT\3rd Year\HotelManagementSystem\HotelManagementSystem\bin\Debug\HotelManagementSystem.exe
 E:\IT\3rd Year\HotelManagementSystem\HotelManagementSystem\bin\Debug\HotelManagementSystem.pdb
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\bin\Debug\HotelManagementSystem.exe.config
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\obj\Debug\HotelManagementSystem.exe
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\obj\Debug\HotelManagementSystem.pdb
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\obj\Debug\HotelManagementSystem.csprojResolveAssemblyReference.cache
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\obj\Debug\MainWindow.baml
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\obj\Debug\View\Billing.baml
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\obj\Debug\View\CheckInForm.baml
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\obj\Debug\View\CheckOut.baml
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\obj\Debug\View\Dashboard.baml
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\obj\Debug\View\FloorPages\FirstFloorView.baml
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\obj\Debug\View\FloorPages\FourthFloorView.baml
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\obj\Debug\View\FloorPages\SecondFloorView.baml
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\obj\Debug\View\FloorPages\ThirdFloorView.baml
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\obj\Debug\View\GuestList.baml
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\obj\Debug\View\LogIn.baml
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\obj\Debug\View\ReservationForm.baml
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\obj\Debug\View\ReservationList.baml
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\obj\Debug\View\RoomMonitoring.baml
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\obj\Debug\View\RoomStatus.baml
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\obj\Debug\MainWindow.g.cs
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\obj\Debug\View\Billing.g.cs
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\obj\Debug\View\CheckInForm.g.cs
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\obj\Debug\View\CheckOut.g.cs
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\obj\Debug\View\Dashboard.g.cs
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\obj\Debug\View\FloorPages\FirstFloorView.g.cs
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\obj\Debug\View\FloorPages\FourthFloorView.g.cs
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\obj\Debug\View\FloorPages\SecondFloorView.g.cs
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\obj\Debug\View\FloorPages\ThirdFloorView.g.cs
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\obj\Debug\View\GuestList.g.cs
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\obj\Debug\View\LogIn.g.cs
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\obj\Debug\View\ReservationForm.g.cs
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\obj\Debug\View\ReservationList.g.cs
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\obj\Debug\View\RoomMonitoring.g.cs
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\obj\Debug\View\RoomStatus.g.cs
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\obj\Debug\App.g.cs
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\obj\Debug\HotelManagementSystem_Content.g.cs
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\obj\Debug\HotelManagementSystem_MarkupCompile.cache
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\obj\Debug\HotelManagementSystem.g.resources
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\obj\Debug\HotelManagementSystem.Properties.Resources.resources
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\obj\Debug\HotelManagementSystem.csproj.GenerateResource.Cache
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\bin\Debug\HotelManagementSystem.exe
+C:\Users\Jazin Mendoza\Documents\Hotel Management System\hotelmanagementsystem-master\HotelManagementSystem\bin\Debug\HotelManagementSystem.pdb
