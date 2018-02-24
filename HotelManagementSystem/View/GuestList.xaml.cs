@@ -22,6 +22,22 @@ namespace HotelManagementSystem.View
         public GuestList()
         {
             InitializeComponent();
+            ServiceReference1.RestServiceSoapClient a = new ServiceReference1.RestServiceSoapClient();
+            GuestListDataGrid.DataContext = a.connectoToMySql().DefaultView;
         }
+
+        private void backBtn_Clicked(object sender, MouseButtonEventArgs e)
+        {
+            this.Visibility = System.Windows.Visibility.Collapsed;
+            Dashboard a = new Dashboard();
+            a.Visibility = System.Windows.Visibility.Visible;
+        }
+
+        private void TextBox_TextChanged_1(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        
     }
 }

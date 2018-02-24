@@ -23,6 +23,7 @@ namespace HotelManagementSystem.View
         public RoomMonitoring()
         {
             InitializeComponent();
+            today.Content = DateTime.Now.ToString();
         }
 
         private void backBtn_Clicked(object sender, MouseButtonEventArgs e)

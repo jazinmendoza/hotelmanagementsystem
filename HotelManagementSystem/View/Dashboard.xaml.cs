@@ -38,6 +38,13 @@ namespace HotelManagementSystem.View
             a.Visibility = System.Windows.Visibility.Visible;
         }
 
+        private void guessListBtn_Clicked(object sender, RoutedEventArgs e)
+        {
+            this.Visibility = System.Windows.Visibility.Collapsed;
+            GuestList a = new GuestList();
+            a.Visibility = System.Windows.Visibility.Visible;
+        }
+
 
     }
 }

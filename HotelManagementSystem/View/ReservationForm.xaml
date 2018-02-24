@@ -6,7 +6,6 @@
     <Grid>
         <Rectangle Fill="#FF5B0C0C" HorizontalAlignment="Left" Height="93" Stroke="Black" VerticalAlignment="Top" Width="1167"/>
         <Label Content="Room Reservation" HorizontalAlignment="Left" Margin="70,20,0,0" VerticalAlignment="Top" Foreground="White" FontSize="30"/>
-        <Label Content="H o t e l   M a n a g e m e n t   S y s t em" HorizontalAlignment="Left" Margin="810,28,0,0" VerticalAlignment="Top" Foreground="White" FontSize="19"/>
         <Label Content="&lt;" HorizontalAlignment="Left" Margin="14,10,0,0" VerticalAlignment="Top" Foreground="White" FontSize="56" FontFamily="Times New Roman" FontWeight="Bold"/>
         <TextBox HorizontalAlignment="Left" Height="42" Margin="97,210,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="445" FontSize="24" BorderBrush="Black" Background="White" BorderThickness="1"/>
         <Label Content="FIRSTNAME" HorizontalAlignment="Left" Margin="97,168,0,0" VerticalAlignment="Top" Foreground="Black" Height="42" Width="164" FontSize="22"/>
@@ -25,6 +24,7 @@
         <TextBox HorizontalAlignment="Left" Height="42" Margin="618,368,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="445" FontSize="24" BorderBrush="Black" Background="White" BorderThickness="1"/>
         <Label Content="REMARKS" HorizontalAlignment="Left" Margin="618,326,0,0" VerticalAlignment="Top" Foreground="Black" Height="42" Width="198" FontSize="22"/>
         <Button Content="Reserve" HorizontalAlignment="Left" Margin="896,540,0,0" VerticalAlignment="Top" Width="167" Height="54" FontSize="20" Background="#FF5B0C0C" BorderBrush="#FF5B0C0C" Foreground="White"/>
+        <Image Source="/HotelManagementSystem;component/Images/hms-logo-01.png" Margin="861,-1,42,535" />
 
     </Grid>
 </Window>
