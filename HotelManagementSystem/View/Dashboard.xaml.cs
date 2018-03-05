@@ -45,6 +45,13 @@ namespace HotelManagementSystem.View
             a.Visibility = System.Windows.Visibility.Visible;
         }
 
+        private void reservationListBtn_Clicked(object sender, RoutedEventArgs e)
+        {
+            this.Visibility = System.Windows.Visibility.Collapsed;
+            ReservationList a = new ReservationList();
+            a.Visibility = System.Windows.Visibility.Visible;
+        }
+
 
     }
 }
