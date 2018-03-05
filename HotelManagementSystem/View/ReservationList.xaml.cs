@@ -22,6 +22,15 @@ namespace HotelManagementSystem.View
         public ReservationList()
         {
             InitializeComponent();
+            ServiceReference1.RestServiceSoapClient a = new ServiceReference1.RestServiceSoapClient();
+            ReservationListDataGrid.DataContext = a.getReservationList().DefaultView;
+        }
+
+        private void backBtn_Clicked(object sender, MouseButtonEventArgs e)
+        {
+            this.Visibility = System.Windows.Visibility.Collapsed;
+            Dashboard a = new Dashboard();
+            a.Visibility = System.Windows.Visibility.Visible;
         }
     }
 }

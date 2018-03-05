@@ -1,8 +1,14 @@
 ﻿<Window x:Class="HotelManagementSystem.View.ReservationList"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="ReservationList" Height="300" Width="300">
-    <Grid>
-        
+        Title="ReservationList" Height="659.089" Width="1174.933"
+        WindowStartupLocation="CenterScreen">
+    <Grid Width="1167" Height="628">
+        <Rectangle Fill="#FF5B0C0C" HorizontalAlignment="Left" Height="93" Stroke="Black" VerticalAlignment="Top" Width="1167"/>
+        <Label Content="Reservation List" HorizontalAlignment="Left" Margin="70,20,0,0" VerticalAlignment="Top" Foreground="White" FontSize="30"/>
+        <Label x:Name="backBtn" Content="&lt;" HorizontalAlignment="Left" Margin="14,10,0,0" VerticalAlignment="Top" Foreground="White" FontSize="56" FontFamily="Times New Roman" FontWeight="Bold" MouseDown="backBtn_Clicked"/>
+        <Image Source="/HotelManagementSystem;component/Images/hms-logo-01.png" Margin="861,-1,42,535" />
+        <DataGrid x:Name="ReservationListDataGrid" HorizontalAlignment="Left" Height="354" Margin="114,219,0,0" VerticalAlignment="Top" Width="948" AutoGenerateColumns="True" ItemsSource="{Binding}"/>
+
     </Grid>
 </Window>
