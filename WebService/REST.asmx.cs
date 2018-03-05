@@ -18,7 +18,17 @@ namespace WebService
     // [System.Web.Script.Services.ScriptService]
     public class REST : System.Web.Services.WebService
     {
+        MySqlConnection cnMySQL;
 
+        public REST()
+        {
+            string connString = "SERVER=localhost" + ";" +
+                "DATABASE=hotel_mgt;" +
+                "UID=root;" +
+                "PASSWORD=;";
+
+           cnMySQL = new MySqlConnection(connString);
+        }
         [WebMethod]
         public string GetCustomerName(int id)
         {
@@ -33,14 +43,30 @@ namespace WebService
             return true;
         }
         [WebMethod]
-        public DataTable connectoToMySql()
+        public DataTable getReservationList()
         {
-            string connString = "SERVER=localhost" + ";" +
-                "DATABASE=hotel_mgt;" +
-                "UID=root;" +
-                "PASSWORD=;";
 
-            MySqlConnection cnMySQL = new MySqlConnection(connString);
+            MySqlCommand cmdMySQL = cnMySQL.CreateCommand();
+
+            MySqlDataReader reader;
+
+            cmdMySQL.CommandText = "select * from reservation";
+
+            cnMySQL.Open();
+
+            reader = cmdMySQL.ExecuteReader();
+
+            DataTable dt = new DataTable();
+            dt.Load(reader);
+
+
+            cnMySQL.Close();
+
+            return dt;
+        }
+        [WebMethod]
+        public DataTable getGuestList()
+        {
 
             MySqlCommand cmdMySQL = cnMySQL.CreateCommand();
 
@@ -59,6 +85,33 @@ namespace WebService
             cnMySQL.Close();
 
             return dt;
+        }
+
+        [WebMethod]
+        public DataSet getDates(String room_num)
+        {
+            DataSet dates = new DataSet();
+
+            MySqlCommand cmdMySQL = cnMySQL.CreateCommand();
+
+            cmdMySQL.CommandText = "SELECT room.room_num, check_in.checkin_date, reservation.check_in as reservation FROM `room`"+ 
+            "LEFT JOIN reservation ON reservation.room_num = room.room_num" +
+            "LEFT JOIN check_in ON check_in.room_num=room.room_num"+
+            "WHERE room.room_num = @room_num";
+            cmdMySQL.Parameters.Add(new MySqlParameter("@room_num", room_num));
+            cnMySQL.Open();
+
+            MySqlDataAdapter sqlDataAdapter = new MySqlDataAdapter(cmdMySQL);
+
+            try
+            {
+                sqlDataAdapter.Fill(dates);
+            }
+            catch { }
+
+            cnMySQL.Close();
+
+            return dates;
         } 
     }
 }
