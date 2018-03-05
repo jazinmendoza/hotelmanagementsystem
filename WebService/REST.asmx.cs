@@ -43,28 +43,6 @@ namespace WebService
             return true;
         }
         [WebMethod]
-        public DataTable getReservationList()
-        {
-
-            MySqlCommand cmdMySQL = cnMySQL.CreateCommand();
-
-            MySqlDataReader reader;
-
-            cmdMySQL.CommandText = "select * from reservation";
-
-            cnMySQL.Open();
-
-            reader = cmdMySQL.ExecuteReader();
-
-            DataTable dt = new DataTable();
-            dt.Load(reader);
-
-
-            cnMySQL.Close();
-
-            return dt;
-        }
-        [WebMethod]
         public DataTable getGuestList()
         {
 
@@ -72,7 +50,7 @@ namespace WebService
 
             MySqlDataReader reader;
 
-            cmdMySQL.CommandText = "select * from guest";
+            cmdMySQL.CommandText = "SELECT guest_id, fname, lname, title, gender, citizenship, status FROM `guest`";
 
             cnMySQL.Open();
 
@@ -112,6 +90,29 @@ namespace WebService
             cnMySQL.Close();
 
             return dates;
-        } 
+        }
+
+        [WebMethod]
+        public DataTable getDataFromSearch(String fname)
+        {
+
+            MySqlCommand cmdMySQL = cnMySQL.CreateCommand();
+
+            MySqlDataReader reader;
+
+            cmdMySQL.CommandText = "SELECT * FROM `guest` WHERE fname LIKE '%" + fname + "%'";
+
+            cnMySQL.Open();
+
+            reader = cmdMySQL.ExecuteReader();
+
+            DataTable dt = new DataTable();
+            dt.Load(reader);
+
+
+            cnMySQL.Close();
+
+            return dt;
+        }
     }
 }
