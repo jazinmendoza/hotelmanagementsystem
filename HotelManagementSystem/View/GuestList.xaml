@@ -7,7 +7,7 @@
         <Rectangle Fill="#FF5B0C0C" HorizontalAlignment="Left" Height="93" Stroke="Black" VerticalAlignment="Top" Width="1167"/>
         <Label Content="Guest List" HorizontalAlignment="Left" Margin="70,20,0,0" VerticalAlignment="Top" Foreground="White" FontSize="30"/>
         <Label x:Name="backBtn" Content="&lt;" HorizontalAlignment="Left" Margin="14,10,0,0" VerticalAlignment="Top" Foreground="White" FontSize="56" FontFamily="Times New Roman" FontWeight="Bold" MouseDown="backBtn_Clicked"/>
-        <TextBox x:Name="searchBox" HorizontalAlignment="Left" Height="34" Margin="134,142,0,0" TextWrapping="Wrap" Text="Search" VerticalAlignment="Top" Width="344" Background="#FFF1EFEF" FontSize="16" TextAlignment="Left" TextChanged="TextBox_TextChanged_1"/>
+        <TextBox x:Name="searchBox" HorizontalAlignment="Left" Height="34" Margin="134,142,0,0" TextWrapping="Wrap" Text="Search" VerticalAlignment="Top" Width="344" Background="#FFF1EFEF" FontSize="16" TextAlignment="Left"/>
         <Button x:Name="searchBtn" Content="Search" HorizontalAlignment="Left" Height="34" Margin="503,142,0,0" VerticalAlignment="Top" Width="111" Click="Button_ClickSearch">
             <Button.Background>
                 <SolidColorBrush Color="#FF5B0C0C" Opacity="0.805"/>
@@ -15,23 +15,25 @@
         </Button>
         <Image Source="/HotelManagementSystem;component/Images/hms-logo-01.png" Margin="861,-1,42,535" />
         <DataGrid HorizontalAlignment="Center" x:Name="GuestListDataGrid" AutoGenerateColumns="True" ItemsSource="{Binding}" Margin="134,199,554,0" VerticalAlignment="Top" Height="389" Width="480" SelectionChanged="GuestListDataGrid_SelectionChanged"/>
-        <Label Content="Guest Status:" HorizontalAlignment="Left" Height="72" Margin="819,238,0,0" VerticalAlignment="Top" Width="214" FontSize="30"/>
-        <Button x:Name="viewBillingBtn" Content="View Billing" HorizontalAlignment="Left" Height="34" Margin="794,422,0,0" VerticalAlignment="Top" Width="111" IsEnabled="False" Click="viewBillingBtnClicked">
+        <Label Content="Guest Status:" HorizontalAlignment="Left" Height="72" Margin="819,222,0,0" VerticalAlignment="Top" Width="214" FontSize="30"/>
+        <Button x:Name="viewBillingBtn" Content="View Billing" HorizontalAlignment="Left" Height="34" Margin="794,444,0,0" VerticalAlignment="Top" Width="111" IsEnabled="False" Click="viewBillingBtnClicked">
             <Button.Background>
                 <SolidColorBrush Color="#FF5B0C0C" Opacity="0.805"/>
             </Button.Background>
         </Button>
-        <Button x:Name="checkOutBtn" Content="Check-Out" HorizontalAlignment="Left" Height="34" Margin="922,422,0,0" VerticalAlignment="Top" Width="111" Click="checkOutBtnClick">
+        <Button x:Name="checkOutBtn" Content="Check-Out" HorizontalAlignment="Left" Height="34" Margin="922,444,0,0" VerticalAlignment="Top" Width="111" Click="checkOutBtnClick">
             <Button.Background>
                 <SolidColorBrush Color="#FF5B0C0C" Opacity="0.805"/>
             </Button.Background>
         </Button>
-        <Label Content="First Name:"  HorizontalAlignment="Left" Height="30" Margin="775,297,0,0" VerticalAlignment="Top" Width="99" FontWeight="Bold" FontSize="16"/>
-        <Label Content="" x:Name ="fName" HorizontalAlignment="Left" Height="30" Margin="880,297,0,0" VerticalAlignment="Top" Width="246" FontSize="16" Foreground="#FF5B0C0C"/>
-        <Label Content="Last Name:" HorizontalAlignment="Left" Height="30" Margin="775,333,0,0" VerticalAlignment="Top" Width="99" FontWeight="Bold" FontSize="16"/>
-        <Label Content="" x:Name ="lName" HorizontalAlignment="Left" Height="30" Margin="880,333,0,0" VerticalAlignment="Top" Width="246" FontSize="16" Foreground="#FF5B0C0C"/>
-        <Label Content="Status:" HorizontalAlignment="Left" Height="30" Margin="806,369,0,0" VerticalAlignment="Top" Width="99" FontWeight="Bold" FontSize="16"/>
-        <Label Content="" x:Name ="status" HorizontalAlignment="Left" Height="30" Margin="880,369,0,0" VerticalAlignment="Top" Width="246" FontSize="16" Foreground="#FF5B0C0C"/>
+        <Label Content="First Name:"  HorizontalAlignment="Left" Height="30" Margin="775,324,0,0" VerticalAlignment="Top" Width="99" FontWeight="Bold" FontSize="16"/>
+        <Label Content="" x:Name ="fName" HorizontalAlignment="Left" Height="30" Margin="880,324,0,0" VerticalAlignment="Top" Width="246" FontSize="16" Foreground="#FF5B0C0C"/>
+        <Label Content="Last Name:" HorizontalAlignment="Left" Height="30" Margin="776,360,0,0" VerticalAlignment="Top" Width="99" FontWeight="Bold" FontSize="16"/>
+        <Label Content="" x:Name ="lName" HorizontalAlignment="Left" Height="30" Margin="880,360,0,0" VerticalAlignment="Top" Width="246" FontSize="16" Foreground="#FF5B0C0C"/>
+        <Label Content="Status:" HorizontalAlignment="Left" Height="30" Margin="806,396,0,0" VerticalAlignment="Top" Width="99" FontWeight="Bold" FontSize="16"/>
+        <Label Content="" x:Name ="status" HorizontalAlignment="Left" Height="30" Margin="880,396,0,0" VerticalAlignment="Top" Width="246" FontSize="16" Foreground="#FF5B0C0C"/>
+        <Label Content="Guest ID:"  HorizontalAlignment="Left" Height="30" Margin="794,289,0,0" VerticalAlignment="Top" Width="99" FontWeight="Bold" FontSize="16"/>
+        <Label Content="" x:Name ="guestID" HorizontalAlignment="Left" Height="30" Margin="880,289,0,0" VerticalAlignment="Top" Width="246" FontSize="16" Foreground="#FF5B0C0C"/>
 
     </Grid>
 </Window>
