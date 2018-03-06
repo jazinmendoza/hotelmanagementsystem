@@ -93,15 +93,21 @@ namespace WebService
         }
 
         [WebMethod]
-        public DataTable getDataFromSearch(String fname)
+        public DataTable getDataFromSearch(string fname)
         {
 
             MySqlCommand cmdMySQL = cnMySQL.CreateCommand();
 
             MySqlDataReader reader;
+            if (fname == null)
+            {
+                cmdMySQL.CommandText = "SELECT * FROM `guest`";
+            }
+            else
+            {
 
-            cmdMySQL.CommandText = "SELECT * FROM `guest` WHERE fname LIKE '%" + fname + "%'";
-
+                cmdMySQL.CommandText = "SELECT * FROM `guest` WHERE fname LIKE '%" + fname + "%'";
+            }
             cnMySQL.Open();
 
             reader = cmdMySQL.ExecuteReader();
@@ -113,6 +119,43 @@ namespace WebService
             cnMySQL.Close();
 
             return dt;
+        }
+            
+        [WebMethod]
+        public Boolean updateGuestStatus(string search, int id, string guestStatus)
+        {
+            string updateGuestStatus = "checked-out";
+            Boolean ret;
+            int guestID = Int32.Parse(id);
+            MySqlCommand cmdMySQL = cnMySQL.CreateCommand();
+
+            MySqlDataReader reader;
+            if (search == null && guestStatus == "checked-in")
+            {
+                cmdMySQL.CommandText = "UPDATE `guest` SET `status` ='" + updateGuestStatus + "'";
+                ret = true;
+            }
+            else if (search != null && guestStatus == "checked-in")
+            {
+
+                cmdMySQL.CommandText = "UPDATE `guest` SET `status` ='" + updateGuestStatus + "'";
+                ret = true;
+            }
+            else
+            {
+                ret = false;
+            }
+            cnMySQL.Open();
+
+            reader = cmdMySQL.ExecuteReader();
+
+            DataTable dt = new DataTable();
+            dt.Load(reader);
+
+
+            cnMySQL.Close();
+
+            return ret;
         }
     }
 }
