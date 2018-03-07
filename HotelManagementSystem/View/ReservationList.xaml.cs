@@ -23,7 +23,7 @@ namespace HotelManagementSystem.View
         {
             InitializeComponent();
             ServiceReference1.RestServiceSoapClient a = new ServiceReference1.RestServiceSoapClient();
-            ReservationListDataGrid.DataContext = a.getReservationList().DefaultView;
+            //ReservationListDataGrid.DataContext = a.().DefaultView;
         }
 
         private void backBtn_Clicked(object sender, MouseButtonEventArgs e)
